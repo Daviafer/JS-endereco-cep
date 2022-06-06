@@ -91,3 +91,26 @@
   border: 2px solid var(--border-color);
   color: var(--primary-color);
 }
+#order-form-container select{
+  padding: 1rem .75rem;
+}
+#order-form-container label{
+  color: var(--text-color);
+  left: 1em; /* afastar da borda */
+}
+#order-form-container input:disabled,
+#order-form-container select:disabled{
+  background-color: var(--secondary-bg-color);
+  color:var(--text-color);
+}
+#order-form-container input:focus{
+  border-color: var(--secondary-color)
+}
+#save-btn{
+  /* background-color: #25cc88; */
+  border: none;
+  /* color: #04044c; */
+  width: 8em;
+  /* height: 3em; */
+  border-radius: 0.8em;
+}
